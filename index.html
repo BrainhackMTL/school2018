@@ -1,11 +1,14 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="icon"
+              type="image/png"
+              href="favicon.png">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Robot</title>
+        <title>BrainHack School</title>
 
         <!-- CSS -->
 
@@ -35,6 +38,9 @@
                     <div class="col-sm-6">
                         <a href="index.html"><img src="assets/images/logo_brainhack.png" alt="logo" width="50%"></a>
                     </div>
+                    <div class="col-sm-6">
+                        <a href="index_fr.html"><img src="assets/images/logo_brainhack_fr.png" align="right" alt="logo" width="50%"></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -58,10 +64,10 @@
                         <div class="collapse navbar-collapse" id="site-nav-bar">
                             <ul class="nav navbar-nav">
                                 <li class="active"><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
+                                <li><a href="schedule.html">Schedule</a></li>
                                 <li><a href="tutorials.html">Tutorials</a></li>
                                 <li><a href="faq.html">FAQ</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="register.html">Register</a></li>
                                 <li><a href="http://www.brainhack.org/code-of-conduct.html">Code of conduct</a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
@@ -75,7 +81,8 @@
                         <p>
                           work on a project you love
                         </p>
-                        <h1 class="header-title">Montreal<br><span class="thin">May 14th-June 1st</span></h1>
+                        <h1 class="header-title">Montreal<br><span class="thin">May 14th-June 1st</span> </h1>
+                        <a href="register.html" class="btn btn-default btn-robot">Register now</a>
                     </div>
                 </div> <!-- /.intro.row -->
             </div> <!-- /.container -->
@@ -160,6 +167,7 @@
                   <p class="p-large">
                     It is similar to a writer's retreat or work sabbatical. Researchers of all experience levels join us in Montreal to spend one to three weeks getting better, however they see fit. Participants have access to top work environment and computational facilities. Most importantly, the brainhack school community is here to help.
                   </p>
+                  <a href="schedule.html" class="btn btn-default btn-robot">View schedule</a>
               </div>
               <div class="col-sm-6">
                     <p class="p-large">
@@ -171,13 +179,13 @@
         </div>
     </section>
 
-
+    <!-- Tutorials -->
         <section id="history" class="history">
             <div class="container section-bg">
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="title-box">
-                            <h2 class="title">Topics<span> at the Brainhack School</span></h2>
+                            <h2 class="title">Topics at the Brainhack School <span> </span></h2>
                             <a href="tutorials.html" class="btn btn-default btn-robot">view tutorials</a>
                         </div>
                     </div>
@@ -186,7 +194,7 @@
                     <div class="boxed">
                         <div class="col-sm-10 col-sm-offset-1">
                           <p style="margin:30px 0px; font-size:20px; height:auto;">
-                            The exact content of the course will be defined by the material required by each project. Tutorials will be organized by request in the following general areas:
+                            The exact content of the course will be defined by the material required by each project. Tutorials will be organized by request in the following topics:
                           </p>
                         </div>
                         <div class="row">
@@ -198,18 +206,37 @@
                             </div>
                             <div class="col-sm-4">
                                 <div class="porduct-box">
-                                    <img class="img-responsive" src="assets/images/fig_code.jpg" alt="code">
-                                    <h3 class="product-title">Code sharing</h3>
+                                    <img class="img-responsive" src="assets/images/fig_code.png" alt="code">
+                                    <h3 class="product-title">Open code</h3>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="porduct-box">
-                                    <img class="img-responsive" src="assets/images/product-3.jpg" alt="product">
+                                    <img class="img-responsive" src="assets/images/fig_hpc.png" alt="product">
                                     <h3 class="product-title">High-performance computing and pipelines</h3>
                                 </div>
                             </div>
                         </div>
-
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="porduct-box">
+                                    <img class="img-responsive" src="assets/images/visu.png" alt="data">
+                                    <h3 class="product-title">Data visualization</h3>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="porduct-box">
+                                    <img class="img-responsive" src="assets/images/ml.png" alt="code">
+                                    <h3 class="product-title">machine learning</h3>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="porduct-box">
+                                    <img class="img-responsive" src="assets/images/neuroimaging.png" alt="product">
+                                    <h3 class="product-title">Neuroimaging</h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -239,45 +266,51 @@
 
     </tr>
     <tr>
-      <td class="thumb"><img src="assets/images/elizabeth.jpg"></td>
+      <td class="thumb"><img src="assets/images/elizabeth.png"></td>
         <td><a href="http://emdupre.me/">Elizabeth Dupre</a> <br />Montreal Neurological Institute<br />McGill University</td>
     <td class="thumb"><img src="assets/images/tristan.png"></td>
-    <td><a href="https://users.encs.concordia.ca/~tglatard/">Tristan Glatard</a><br />Department of Computer-Science and Software Engineering<br />Concordia University</td>
+    <td><a href="https://users.encs.concordia.ca/~tglatard/">Tristan Glatard</a><br />Department of Computer Science and Software Engineering<br />Concordia University</td>
     </tr>
     <tr>
     <td class="thumb"><img src="assets/images/karim.png"></td>
-    <td><a href="http://www.karimjerbi.com">Karim Jerbi</a><br />Psychology Department<br />Montreal University</td>
-    <td class="thumb"><img src="assets/images/anisha.jpg"></td>
+    <td><a href="http://www.karimjerbi.com">Karim Jerbi</a><br />Psychology Department<br />Université de Montréal</td>
+    <td class="thumb"><img src="assets/images/anisha.png"></td>
     <td><a href="http://ilabs.washington.edu/postdoctoral-fellows/bio/i-labs-anisha-keshavan">Anisha Keshavan</a><br />eScience Institute<br />University of Washington</td>
     </tr>
     <tr>
-    <td class="thumb"><img src="assets/images/greg.jpg"></td>
+    <td class="thumb"><img src="assets/images/greg.png"></td>
     <td><a href="http://gkiar.me/">Gregory Kiar</a><br />Montreal Neurological Institute<br />McGill University</td>
+    <td class="thumb"><img src="assets/images/daniel.png"></td>
+    <td><a href="https://www.cbs.mpg.de/person/margulies/205351">Daniel Margulies</a><br />Institut Pasteur<br />Centre National de la Recherche Scientifique</td>
+    </tr>
+    <tr>
     <td class="thumb"><img src="assets/images/bratislav.png"></td>
-    <td><a href="http://www.mcgill.ca/neuro/research/researchers/bratislav-misic">Bratislav Misic</a><br />Neuroimaging and Neuroinformatics<br />Montreal Neurologiacl Institute and Hospital</td>
+    <td><a href="http://www.misiclab.com/">Bratislav Misic</a><br />Montreal Neurological Institute <br />McGill University</td>
+    <td class="thumb"><img src="assets/images/clara.png"></td>
+    <td><a href="https://recherche.chusj.org/fr/Blogue/Clara-Moreau">Clara Moreau</a><br />Ste Justine Hospital<br />Université de Montréal</td>
     </tr>
     <tr>
-    <td class="thumb"><img src="assets/images/clara.jpg"></td>
-    <td><a href="https://recherche.chusj.org/fr/Blogue/Clara-Moreau">Clara Moreau</a><br />Montreal Neurologiacl Institute<br />Ste Justine Hospital</td>
-    <td class="thumb"><img src="assets/images/jb.jpg"></td>
+    <td class="thumb"><img src="assets/images/jb.png"></td>
     <td><a href="https://www.mcgill.ca/qls/researchers/jb-poline">Jean-Baptiste Poline</a><br />Montreal Institute<br />Mcgill University</td>
-    </tr>
-    <tr>
-    <td class="thumb"><img src="assets/images/nikola.jpg"></td>
+    <td class="thumb"><img src="assets/images/nikola.png"></td>
     <td><a href="https://www.polymtl.ca/expertises/stikov-nikola">Nikola Stikov</a><br />Montreal Heart Institute<br />Montreal University</td>
-    <td class="thumb"><img src="assets/images/angela.jpg"></td>
+  </tr>
+  <tr>
+    <td class="thumb"><img src="assets/images/angela.png"></td>
     <td><a href="https://www.researchgate.net/profile/Angela_Tam3">Angela Tam</a><br />CRIUGM<br />McGill University</td>
-    </tr>
-    <tr>
-    <td class="thumb"><img src="assets/images/PJT.png"></td>
+    <td class="thumb"><img src="assets/images/pjt.png"></td>
     <td><a href="http://www.facebook.com/McConnellBrainImagingCentre/posts/819456298096269">Paule-Joanne Toussaint</a><br />Montreal Neurological Institute<br />McGill University</td>
-    <td class="thumb"><img src="assets/images/sebastian.jpg"></td>
-    <td><a href="http://www.researchgate.net/profile/Sebastian_Urchs">Sebastian Urchs</a><br />montreal Neurological Institute<br />McGill University</td>
     </tr>
     <tr>
+    <td class="thumb"><img src="assets/images/sebastian.png"></td>
+    <td><a href="http://www.researchgate.net/profile/Sebastian_Urchs">Sebastian Urchs</a><br />montreal Neurological Institute<br />McGill University</td>
     <td class="thumb"><img src="assets/images/tal.png"></td>
       <td><a href="http://talyarkoni.org">Tal Yarkoni</a> (Resident)<br />Department of Psychology<br />University of Texas at Austin</td>
     </tr>
+    <tr>
+      <td class="thumb"><img src="assets/images/yu.png"></td>
+        <td><a href="https://www.researchgate.net/profile/Yu_Zhang104">Yu Zhang</a> <br />Department of Computer Science and Operational Research<br />CRIUGM, Université de Montréal</td></td>
+      </tr>
                   </tbody>
                 </table>
               </div>
@@ -307,40 +340,28 @@
                        <div class="col-sm-12">
                            <div id="partner-slider" class="owl-carousel">
                                 <div class="item">
-                                    <img src="assets/images/6.png" alt="partner">
+                                    <a href="http://www.unf-montreal.ca/site/home/"> <img src="assets/logos/logo_unf.jpg" alt="UNF"></a>
                                 </div>
                                 <div class="item">
-                                    <img src="assets/images/7.png" alt="partner">
+                                  <a href="http://www.criugm.qc.ca/"> <img src="assets/logos/logo_criugm.jpg" alt="CRIUGM"> </a>
                                 </div>
                                 <div class="item">
-                                    <img src="assets/images/8.png" alt="partner">
+                                  <a href="http://www.umontreal.ca/"> <img src="assets/logos/logo_udm.jpg" alt="UdeM"> </a>
                                 </div>
                                 <div class="item">
-                                    <img src="assets/images/9.png" alt="partner">
+                                  <a href="http://www.mcgill.ca/"> <img src="assets/logos/logo_mcgill.jpg" alt="McGill"></a>
                                 </div>
                                 <div class="item">
-                                    <img src="assets/images/6.png" alt="partner">
+                                  <a href="https://www.concordia.ca/encs.html"> <img src="assets/logos/logo_concordia.jpg" alt="Concordia"></a>
                                 </div>
                                 <div class="item">
-                                    <img src="assets/images/7.png" alt="partner">
+                                  <a href="http://www.polymtl.ca/en"> <img src="assets/logos/logo_polytechnique.jpg" alt="polytechnique"></a>
                                 </div>
                                 <div class="item">
-                                    <img src="assets/images/8.png" alt="partner">
+                                    <a href="http://www.mcgill.ca/neuro/"> <img src="assets/logos/logo_mni.jpg" alt="MNI"></a>
                                 </div>
                                 <div class="item">
-                                    <img src="assets/images/9.png" alt="partner">
-                                </div>
-                                <div class="item">
-                                    <img src="assets/images/6.png" alt="partner">
-                                </div>
-                                <div class="item">
-                                    <img src="assets/images/7.png" alt="partner">
-                                </div>
-                                <div class="item">
-                                    <img src="assets/images/8.png" alt="partner">
-                                </div>
-                                <div class="item">
-                                    <img src="assets/images/9.png" alt="partner">
+                                    <a href="http://www.douglas.qc.ca/?locale=en"> <img src="assets/logos/logo_douglas.jpg" alt="douglas"></a>
                                 </div>
                             </div>
                        </div>
