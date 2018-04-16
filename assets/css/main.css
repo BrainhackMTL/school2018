@@ -401,8 +401,8 @@ body{
 .intro{
 	background-color: #313131;
 }
-.faq-header .intro{
-	background-image: url(../images/faq-header.jpg);
+.tutorials-header .intro{
+	background-image: url(../images/banner.jpg);
 }
 .shop-header .intro{
 	background-image: url(../images/shop-header.jpg);
@@ -422,7 +422,7 @@ body{
 
 
 /*======================================================================
-##		FAQ
+##		tutorials
 =======================================================================*/
 .panel-heading {
   padding: 0;
@@ -467,7 +467,7 @@ body{
 }
 .panel-body {
   padding: 20px;
-  color: #999;
+  color: #222;
   line-height: 1.7;
 }
 .panel-default {

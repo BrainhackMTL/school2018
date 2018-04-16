@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="icon"
+              type="image/png"
+              href="favicon.png">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Robot | Shop</title>
+        <title>BrainHack School</title>
 
         <!-- CSS -->
 
@@ -33,26 +36,18 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                        <a href="tutorials.html"><img src="assets/images/logo_brainhack.png" alt="logo" width="50%"></a>
                     </div>
-                    <div class="col-sm-3 col-sm-offset-3 text-right">
-                        <span class="ion-android-cart"></span> 0 products
-                        <form>
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="">
-                                <span class="input-group-btn">
-                                    <button class="btn btn-default btn-robot" type="button">Search</button>
-                                </span>
-                            </div><!-- /input-group -->
-                        </form>
+                    <div class="col-sm-6">
+                        <a href="tutorials_fr.html"><img src="assets/images/logo_brainhack_fr.png" align="right" alt="logo" width="50%"></a>
                     </div>
                 </div>
             </div>
         </div>
-        
+
     <!-- Header -->
 
-        <section id="header" class="main-header shop-header inner-header">
+    <section id="header" class="main-header tutorials-header inner-header">
             <div class="container">
 
                 <div class="row">
@@ -69,21 +64,22 @@
                         <div class="collapse navbar-collapse" id="site-nav-bar">
                             <ul class="nav navbar-nav">
                                 <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li class="active"><a href="shop.html">Shop</a></li>
+                                <li><a href="schedule.html">Schedule</a></li>
+                                <li class="active"><a href="tutorials.html">Tutorials</a></li>
                                 <li><a href="faq.html">FAQ</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="register.html">Register</a></li>
+                                <li><a href="http://www.brainhack.org/code-of-conduct.html">Code of conduct</a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
                     </nav>
                 </div>
-                
+
                 <div class="intro row">
                     <div class="overlay"></div>
                     <div class="col-sm-12">
                         <ol class="breadcrumb">
                             <li><a href="index.html">Home</a></li>
-                            <li class="active">Shop</li>
+                            <li class="active">Tutorials</li>
                         </ol>
                     </div>
                 </div> <!-- /.intro.row -->
@@ -91,251 +87,134 @@
             <div class="nutral"></div>
         </section> <!-- /#header -->
 
-    <!-- Shop -->
-        <section class="shop">
+    <!-- tutorials -->
+        <section class="tutorials">
             <div class="container page-bgc">
+
                 <div class="row">
-                    <div class="col-sm-12">
-                        <div class="title-box">
-                            <p>Get our</p>
-                            <h2 class="title mt0">Products</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="boxed">
-                        <div class="col-sm-6">
-                            <div class="shop-box">
-                                <img class="img-full img-responsive" src="assets/images/shop-1.png" alt="shop">
-                                <div class="shop-box-hover text-center">
-                                    <div class="c-table">
-                                        <div class="c-cell">
-                                            <a href="#">
-                                                <span class="ion-heart"></span>
-                                            </a>
-                                            <a href="#">
-                                                <span class="ion-ios-search-strong"></span>
-                                            </a>
-                                            <a href="#">
-                                                <span class="ion-ios-cart"></span>
-                                            </a>
-                                        </div>
+                    <div class="col-sm-8 col-sm-offset-2" style="margin-top: 20px">
+                        <p class="inner-p">
+                          The following list outlines the general topics that participants of the brainhack school may learn, along with representative tutorials. The exact content of the course will be defined by the material required by each project. Tutorials will be organized by request, based on the needs of participants.
+                        </p>
+                        <div id="accordion" role="tablist" aria-multiselectable="true" class="panel-group">
+                            <div class="panel panel-default">
+                                <div id="headingOne" role="tab" class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="collapsed">Open data</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" role="tabpanel" aria-labelledby="headingOne" class="panel-collapse collapse" aria-expanded="true" style="height: 0px;">
+
+                                    <div class="panel-body">
+                                      Existing resources:
+                                        <ul>
+                                          <li> <a href="https://www.mcgill.ca/bic/resources/omega"> Omega</a>: the open magneto-encephalography archive. </li>
+                                          <li> <a href="http://fcon_1000.projects.nitrc.org/"> INDI</a>: the international data sharing initiative. </li>
+                                          <li> <a href="http://fcon_1000.projects.nitrc.org/indi/CoRR/html/concept.html"> CORR</a>: Consortium for Reliability and Reproducibility. </li>
+                                          <li> <a href="http://fcon_1000.projects.nitrc.org/indi/abide/"> ABIDE</a>: Autism Brain Imaging Data Exchange. </li>
+                                          <li> <a href="http://fcon_1000.projects.nitrc.org/indi/adhd200/"> ADHD200</a>: Imaging data sharing in Attention Deficit and Hyperactivity Disorder. </li>
+                                          <li> <a href="http://fcon_1000.projects.nitrc.org/indi/enhanced/"> NKI enhanced</a>: community-based, lifespan imaging sample. </li>
+                                          <li> <a href="https://openneuro.org"> OpenNeuro</a>: various open imaging datasets. </li>
+                                          <li> <a href="https://neurovault.org/"> Neurovault</a>: open brain maps (mostly activation maps). </li>
+                                          <li> <a href="http://neurosynth.org"> Neurosynth</a>: published activation coordinates and meta-analysis. </li>
+                                        </ul>
+                                      Tools for data sharing:
+                                        <ul>
+                                          <li> <a href="https://brainder.org/2012/09/23/the-nifti-file-format/"> NIFTI format</a> for brain images </li>
+                                          <li> <a href="https://en.wikibooks.org/wiki/MINC/SoftwareDevelopment/MINC2.0_File_Format_Reference"> MINC format</a> for brain images </li>
+                                          <li> <a href="http://bids.neuroimaging.io/"> BIDS</a>: Brain Imaging Data Structure </li>
+                                          <li> <a href="https://figshare.com/"> Figshare</a>: generic platform for data sharing</li>
+                                          <li> <a href="https://zenodo.org/"> zenodo</a>: generic platform for data sharing</li>
+                                          <li> Databases and REST API, e.g. <a href="https://docs.figshare.com/"> Figshare's API</a></li>
+                                          <li> The <a href="http://loris.ca/"> LORIS</a> database.</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="shop-box-title">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <h4>Industry Robot</h4>
-                                        <h4>MO: <span class="thin">#00SS5</span></h4>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <p class="shop-price">
-                                            $ 747
-                                        </p>
-                                        <div class="star">
-                                            <span class="ion-ios-star"></span>
-                                            <span class="ion-ios-star"></span>
-                                            <span class="ion-ios-star"></span>
-                                            <span class="ion-ios-star-half"></span>
-                                            <span class="ion-ios-star-outline"></span>
-                                        </div>
+
+                            <div class="panel panel-default">
+                                <div id="headingTwo" role="tab" class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="">Open code</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo" class="panel-collapse collapse" aria-expanded="false">
+                                    <div class="panel-body">
+                                      Building software:
+                                        <ul>
+                                          <li> <a href="http://github.com"> Github</a>: version control and social coding. </li>
+                                          <li> <a href="https://docsify.js.org/#/"> Docsify</a>: Building software documentation. </li>
+                                          <li> <a href="http://nose.readthedocs.io/en/latest/testing.html"> Nose</a>: Building automated tests for software. </li>
+                                          <li> <a href="https://circleci.com"> Circle CI</a>: Continuous integration testing</li>
+                                        </ul>
+                                      Sharing software:
+                                        <ul>
+                                          <li> <a href="https://singularity.lbl.gov/"> Singularity</a>: containers. </li>
+                                          <li> <a href="https://www.docker.com/"> Docker</a> containers. </li>
+                                          <li> <a href="http://jupyter.org/"> Jupyter</a> notebooks. </li>
+                                          <li> <a href="https://mybinder.org/"> Binder</a> notebooks. </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="shop-box">
-                                <img class="img-full img-responsive" src="assets/images/shop-2.png" alt="shop">
-                                <div class="shop-box-hover text-center">
-                                    <div class="c-table">
-                                        <div class="c-cell">
-                                            <a href="#">
-                                                <span class="ion-heart"></span>
-                                            </a>
-                                            <a href="#">
-                                                <span class="ion-ios-search-strong"></span>
-                                            </a>
-                                            <a href="#">
-                                                <span class="ion-ios-cart"></span>
-                                            </a>
-                                        </div>
+                            <div class="panel panel-default">
+                                <div id="headingThree" role="tab" class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="collapsed">High-performance computing and pipelines</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" role="tabpanel" aria-labelledby="headingThree" class="panel-collapse collapse" aria-expanded="false">
+                                    <div class="panel-body">
+                                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="shop-box-title">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <h4>Industry Robot</h4>
-                                        <h4>MO: <span class="thin">#00SS5</span></h4>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <p class="shop-price">
-                                            $ 747
-                                        </p>
-                                        <div class="star">
-                                            <span class="ion-ios-star"></span>
-                                            <span class="ion-ios-star"></span>
-                                            <span class="ion-ios-star"></span>
-                                            <span class="ion-ios-star-half"></span>
-                                            <span class="ion-ios-star-outline"></span>
-                                        </div>
+                            <div class="panel panel-default">
+                                <div id="headingFour" role="tab" class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour" class="collapsed">Data visualization</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFour" role="tabpanel" aria-labelledby="headingFour" class="panel-collapse collapse" aria-expanded="false">
+                                    <div class="panel-body">
+                                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="shop-box">
-                                <img class="img-full img-responsive" src="assets/images/shop-3.png" alt="shop">
-                                <div class="shop-box-hover text-center">
-                                    <div class="c-table">
-                                        <div class="c-cell">
-                                            <a href="#">
-                                                <span class="ion-heart"></span>
-                                            </a>
-                                            <a href="#">
-                                                <span class="ion-ios-search-strong"></span>
-                                            </a>
-                                            <a href="#">
-                                                <span class="ion-ios-cart"></span>
-                                            </a>
-                                        </div>
+                            <div class="panel panel-default">
+                                <div id="headingFive" role="tab" class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive" class="collapsed">Machine learning</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFive" role="tabpanel" aria-labelledby="headingFive" class="panel-collapse collapse" aria-expanded="false">
+                                    <div class="panel-body">
+                                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="shop-box-title">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <h4>Industry Robot</h4>
-                                        <h4>MO: <span class="thin">#00SS5</span></h4>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <p class="shop-price">
-                                            $ 747
-                                        </p>
-                                        <div class="star">
-                                            <span class="ion-ios-star"></span>
-                                            <span class="ion-ios-star"></span>
-                                            <span class="ion-ios-star"></span>
-                                            <span class="ion-ios-star-half"></span>
-                                            <span class="ion-ios-star-outline"></span>
-                                        </div>
+                            <div class="panel panel-default">
+                                <div id="headingSix" role="tab" class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseFive" class="collapsed">Neuroimaging</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseSix" role="tabpanel" aria-labelledby="headingSix" class="panel-collapse collapse" aria-expanded="false">
+                                    <div class="panel-body">
+                                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="shop-box">
-                                <img class="img-full img-responsive" src="assets/images/shop-4.png" alt="shop">
-                                <div class="shop-box-hover text-center">
-                                    <div class="c-table">
-                                        <div class="c-cell">
-                                            <a href="#">
-                                                <span class="ion-heart"></span>
-                                            </a>
-                                            <a href="#">
-                                                <span class="ion-ios-search-strong"></span>
-                                            </a>
-                                            <a href="#">
-                                                <span class="ion-ios-cart"></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shop-box-title">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <h4>Industry Robot</h4>
-                                        <h4>MO: <span class="thin">#00SS5</span></h4>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <p class="shop-price">
-                                            $ 747
-                                        </p>
-                                        <div class="star">
-                                            <span class="ion-ios-star"></span>
-                                            <span class="ion-ios-star"></span>
-                                            <span class="ion-ios-star"></span>
-                                            <span class="ion-ios-star-half"></span>
-                                            <span class="ion-ios-star-outline"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <nav>
-                                <ul class="pager">
-                                    <li class="previous disabled"><a href="#"><span aria-hidden="true" class="ion-chevron-left"></span></a></li>
-                                    <li><a href="#">1</a></li>
-                                    <li><a href="#">2</a></li>
-                                    <li><a href="#">3</a></li>
-                                    <li class="next"><a href="#"><span aria-hidden="true" class="ion-chevron-right"></span></a></li>
-                                </ul>
-                            </nav>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-    <!-- Footer -->
-        <section id="footer-widget" class="footer-widget">
-            <div class="container header-bg">
-                <div class="row">
-                    <div class="col-sm-3">
-                        <h3>Our Popular Services</h3>
-                        <ul>
-                            <li><a href="#">Space Robot</a></li>
-                            <li><a href="#">Lego Robot</a></li>
-                            <li><a href="#">Toy for Robot</a></li>
-                            <li><a href="#">Industry Robot</a></li>
-                            <li><a href="#">Sports Robot</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3">
-                        <h3>Important Link</h3>
-                        <ul>
-                            <li><a href="#">Lorem</a></li>
-                            <li><a href="#">Ipsum</a></li>
-                            <li><a href="#">Dolar</a></li>
-                            <li><a href="#">Set amet</a></li>
-                            <li><a href="#">Iodiet lorem</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3">
-                        <h3>Our Latest Services</h3>
-                        <ul>
-                            <li><a href="#">Edu Robot</a></li>
-                            <li><a href="#">Low Robot</a></li>
-                            <li><a href="#">Mega Robot</a></li>
-                            <li><a href="#">Industry Robot</a></li>
-                            <li><a href="#">Sports Robot</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3">
-                        <h3>Our Services</h3>
-                        <div class="widget-img-box">
-                            <a class="test-popup-link" href="assets/images/widget-big-1.png">
-                                <img class="widget-img" src="assets/images/widget-1.png" alt="widget">
-                            </a>
-                            <a class="test-popup-link" href="assets/images/widget-big-2.png">
-                                <img class="widget-img" src="assets/images/widget-2.png" alt="widget">
-                            </a>
-                            <a class="test-popup-link" href="assets/images/widget-big-3.png">
-                                <img class="widget-img" src="assets/images/widget-3.png" alt="widget">
-                            </a>
-                            <a class="test-popup-link" href="assets/images/widget-big-4.png">
-                                <img class="widget-img" src="assets/images/widget-4.png" alt="widget">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
+
         <footer class="footer text-center">
-            <h3>&copy; Theme by <a href="https://themewagon.com/">Themewagon</a></h3>
+            <h3>&copy; Brainhack School 2018 </h3>
         </footer>
 
     <!-- Scripts -->
